@@ -1,0 +1,114 @@
+\documentclass[11pt]{res} % default is 10 pt
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{scrextend}
+\setlength{\textheight}{9.5in} % increase text height to fit resume on 1 page
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+
+\newcommand{\footnoteremember}[2]{
+\footnote{#2}
+\newcounter{#1}
+\setcounter{#1}{\value{footnote}}
+}
+\newcommand{\footnoterecall}[1]{
+\footnotemark[\value{#1}]
+}
+
+\begin{document} 
+ 
+\name{SEBASTIEN DROUYER}
+\address{5 rue du boulevard \\  69100, Villeurbanne\\ France \\ (+33) 6 80 90 78 17}
+
+                                             
+\begin{resume}
+ 
+\section{EDUCATION} 
+ \noindent INSA LYON (IF) - Lyon, France \\
+Institut National des Sciences Appliqu\'ees / National Institute of Applied Sciences\\
+Master's Degree in Computer Science, September 2008 - June 2011 \\
+School ranked 3 / 126 in French engineering schools according to Usine Nouvelle\footnoteremember{usine_nouvelle}{School rankings:\\
+Usine Nouvelle: LINK}
+
+ \noindent INSA ROUEN (SIB) - Rouen, France \\
+Institut National des Sciences Appliqu\'ees / National Institute of Applied Sciences\\
+Preparatory school, September 2006 - June 2008 \\
+International section (half the courses were taught in English) \\
+School ranked 53 / 126 in French engineering schools according to Usine Nouvelle\footnoterecall{usine_nouvelle}
+
+ \noindent LFKL - Kuala Lumpur, Malaysia \\
+Institut National des Sciences Appliquées / National Institute of Applied Sciences\\
+Core curriculum in science and technology with honours, September 2004 - June 2006 \\
+Lyc\'ee Français de Kuala Lumpur / French School of Kuala Lumpur (High school)
+
+\section{EXPERIENCE} 
+ RESEARCH AND DEVELOPMENT ENGINEER - Novius, Lyon, France \\
+December 2010 - Present
+\vspace{0.05in}
+   \begin{itemize} \itemsep -2pt  % reduce space between items
+   \item Conception and implementation of an Enterprise social software (ResoNova)\footnote{ResoNova links}.
+Used internally as well as by various clients such as banks (Banque postale) or
+Research Institutes (Bioaster). Trained and supported two developers to enable them
+to configure and extend the software.
+   \item Conception and implementation of an open source Content Management System named Novius OS\footnote{Novius OS links}.
+Part of the core team, composed by 3 engineers and the Chief Information Officer. Used by the company
+developers to implement new websites. Trained and supported 12 developers. I also took part in the redaction
+of the online documentation as well as the open-source community management.
+   \item FuelPHP (open source PHP framework) contributor, trainer and speaker. Trained internal development teams SOLD TO OTHER ?.
+Conference speaker (see presentations section).
+ \end{itemize}
+
+RUBY ON RAILS DEVELOPER - Safecoms, Bangkok, Thailand \\ 
+June 2010 - October 2010
+\vspace{0.05in}
+ \begin{itemize} \itemsep -2pt
+   \item Implemented new functionalities and improved performances to a Customer Relationship Management system (Peppercan)\footnote{Peppercan links}.
+  \item  Consultant at Venda, reviewed tickets in order to improve overall performance and customer satisfaction.
+\end{itemize} 
+
+UNITY DEVELOPER - Lumai Prod, Bangkok, Thailand \\ 
+June 2009 - August 2009
+\vspace{0.05in}
+ \begin{itemize} \itemsep -2pt
+   \item Implemented new functionalities and improved performances to a Wii video game.
+\end{itemize} 
+
+\section{PRESENTATION} 
+at PHPTour and Libre Software Meeting event in Geneva
+
+\section{CONTESTS AND AWARDS} 
+ 
+INTEL PERCEPTUAL COMPUTING CHALLENGE: FINALIST + ONGOING \\
+June 2013 - September 2013 \\
+International software creation contest  (750 finalists\footnote{IPCC finalists links}). \\
+Conception and implementation of a software maximizing the Intel Perceptual Computing SDK (gesture tracking, face tracking, voice recognition) : Perceptual Earth Facts \footnote{Perceptual Earth Facts links}. \\
+{\bf Winnings: Creative* Interactive Gesture Camera (worth \$149) for now + \$100,000 (hopefully :)).}
+
+INTEL PERCEPTUAL COMPUTING CHALLENGE: FINALIST + ONGOING \\
+June 2013 - September 2013 \\
+International software creation contest  (750 finalists\footnote{IPCC finalists links}). \\
+Conception and implementation of a software maximizing the Intel Perceptual Computing SDK (gesture tracking, face tracking, voice recognition) : Perceptual Earth Facts \footnote{Perceptual Earth Facts links}. \\
+{\bf Winnings: Creative* Interactive Gesture Camera (worth \$149) for now + \$100,000 (hopefully :)).}
+ 
+\section{ACTIVITIES} 
+ 
+Alpha Epsilon  Pi  Fraternity,  American  Society  of  Mechanical 
+Engineers, Karate and Skydiving Clubs 
+ 
+\section{HOBBIES} 
+ 
+Volleyball, weightlifting, and automotive repair 
+ 
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
