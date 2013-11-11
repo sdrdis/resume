@@ -1,9 +1,10 @@
 \documentclass[11pt]{res} % default is 10 pt
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
-\usepackage{scrextend}
+\usepackage{geometry}
 \setlength{\textheight}{9.5in} % increase text height to fit resume on 1 page
 \newsectionwidth{0pt}  % So the text is not indented under section headings
+{\newgeometry{left=0.25in,right=1.3in,top=0.5in,bottom=0.5in}
 
 \newcommand{\footnoteremember}[2]{
 \footnote{#2}
@@ -26,14 +27,13 @@
  \noindent INSA LYON (IF) - Lyon, France \\
 Institut National des Sciences Appliqu\'ees / National Institute of Applied Sciences\\
 Master's Degree in Computer Science, September 2008 - June 2011 \\
-School ranked 3 / 126 in French engineering schools according to Usine Nouvelle\footnoteremember{usine_nouvelle}{School rankings:\\
-Usine Nouvelle: LINK}
+School ranked 3 / 126 in French engineering schools according to Usine Nouvelle\footnoteremember{usine_nouvelle}{Online ranking: http://www.usinenouvelle.com/comparatif-des-ecoles-d-ingenieurs-2013 (french)}.
 
  \noindent INSA ROUEN (SIB) - Rouen, France \\
 Institut National des Sciences Appliqu\'ees / National Institute of Applied Sciences\\
 Preparatory school, September 2006 - June 2008 \\
 International section (half the courses were taught in English) \\
-School ranked 53 / 126 in French engineering schools according to Usine Nouvelle\footnoterecall{usine_nouvelle}
+School ranked 53 / 126 in French engineering schools according to Usine Nouvelle\footnoterecall{usine_nouvelle}.
 
  \noindent LFKL - Kuala Lumpur, Malaysia \\
 Institut National des Sciences Appliquées / National Institute of Applied Sciences\\
@@ -45,11 +45,12 @@ Lyc\'ee Français de Kuala Lumpur / French School of Kuala Lumpur (High school)
 December 2010 - Present
 \vspace{0.05in}
    \begin{itemize} \itemsep -2pt  % reduce space between items
-   \item Conception and implementation of an Enterprise social software (ResoNova)\footnote{ResoNova links}.
+   \item Conception and implementation of an Enterprise social software (ResoNova)\footnote{Website: http://www.resonova.fr (french)}.
 Used internally as well as by various clients such as banks (Banque postale) or
 Research Institutes (Bioaster). Trained and supported two developers to enable them
 to configure and extend the software.
-   \item Conception and implementation of an open source Content Management System named Novius OS\footnote{Novius OS links}.
+   \item Conception and implementation of an open source Content Management System named Novius OS\footnote{Website: http://www.novius-os.org/ (english) \\
+Youtube channel (presentation videos): https://www.youtube.com/user/NoviusOS (english)}.
 Part of the core team, composed by 3 engineers and the Chief Information Officer. Used by the company
 developers to implement new websites. Trained and supported 12 developers. I also took part in the redaction
 of the online documentation as well as the open-source community management.
@@ -61,7 +62,7 @@ RUBY ON RAILS DEVELOPER - Safecoms, Bangkok, Thailand \\
 June 2010 - October 2010
 \vspace{0.05in}
  \begin{itemize} \itemsep -2pt
-   \item Implemented new functionalities and improved performances to a Customer Relationship Management system (Peppercan)\footnote{Peppercan links}.
+   \item Implemented new functionalities and improved performances to a Customer Relationship Management system (Peppercan)\footnote{Website: http://www.peppercan.com/ (english)}.
   \item  Consultant at Venda, reviewed tickets in order to improve overall performance and customer satisfaction.
 \end{itemize} 
 
@@ -73,30 +74,88 @@ June 2009 - August 2009
 \end{itemize} 
 
 \section{PRESENTATION} 
-at PHPTour and Libre Software Meeting event in Geneva
+
+FUELPHP: A FRAMEWORK, YES - AUTOMAGIC, NO! \\
+French conference introducing the FuelPHP framework\footnote{Slides: http://www.slideshare.net/novius-os/rmll-2012-confrence-fuelphp}
+\vspace{0.05in}
+ \begin{itemize} \itemsep -2pt
+  \item November 2012: PHPTour event in Nantes\footnote{Audio recording: http://youtu.be/TbIFqYwz-SI (french)}
+  \item July 2012: Libre Software Meeting event in Geneva\footnote{Video recording: http://youtu.be/BbmZiJpTGSY (french)}.
+\end{itemize} 
+ 
 
 \section{CONTESTS AND AWARDS} 
  
 INTEL PERCEPTUAL COMPUTING CHALLENGE: FINALIST + ONGOING \\
 June 2013 - September 2013 \\
 International software creation contest  (750 finalists\footnote{IPCC finalists links}). \\
-Conception and implementation of a software maximizing the Intel Perceptual Computing SDK (gesture tracking, face tracking, voice recognition) : Perceptual Earth Facts \footnote{Perceptual Earth Facts links}. \\
-{\bf Winnings: Creative* Interactive Gesture Camera (worth \$149) for now + \$100,000 (hopefully :)).}
+Conception and implementation of a software maximizing the Intel Perceptual Computing SDK
+(gesture tracking, face tracking, voice recognition) : Perceptual Earth Facts \footnote{Presentation video: http://youtu.be/k2dnIkJhJyk (english) \\
+Text presentation: http://drouyer.com/perceptual-challenge/perceptual-earth-facts/help.jpg}. \\
+{\bf Winnings: Creative* Interactive Gesture Camera (worth \$149) for now + \$100,000 (hopefully :))}
 
-INTEL PERCEPTUAL COMPUTING CHALLENGE: FINALIST + ONGOING \\
-June 2013 - September 2013 \\
-International software creation contest  (750 finalists\footnote{IPCC finalists links}). \\
-Conception and implementation of a software maximizing the Intel Perceptual Computing SDK (gesture tracking, face tracking, voice recognition) : Perceptual Earth Facts \footnote{Perceptual Earth Facts links}. \\
-{\bf Winnings: Creative* Interactive Gesture Camera (worth \$149) for now + \$100,000 (hopefully :)).}
+NASA TOURNAMENT LAB - ROBONAUT CHALLENGE: 2ND AND 1ST PLACE\footnoteremember{robonaut_rankings}{Original contest rankings: LINK \\
+Original contest registrants: LINK \\
+Extended contest rankings: LINK \\
+Extended contest registrants: LINK} \\
+May 2013 \\
+International TopCoder marathon challenge (1190 registrants, 40 competitors\footnoteremember{topcoder_comp_reg}{In TopCoder competitions: Registrants are people who subscribed to the contest, but did not necessarily submitted anything. Competitors are people whose submission was accepted (sent on time, compilation successful, respected limitations...).}\footnoterecall{robonaut_rankings}). \\
+2nd on original contest, 1st on the extended contest. \\
+Conception and implementation of a vision algorithm capable of detecting leds and buttons on a taskboard.
+The algorithm is intended for Robonaut 2, an humanoid robot NASA wants to send to the ISS in order to assist
+astronauts. \\
+{\bf Winnings: \$3900}
+
+NASA TOURNAMENT LAB - LONGERON CHALLENGE: 17TH PLACE \\
+January 2013 - February 2013 \\
+International TopCoder marathon challenge (4056 registrants, 459 competitors). \\
+Conception and implementation of an algorithm optimizing the ISS solar collectors position in order to
+maximize the generated power.
+
+GITHUB GAME OFF: 1ST PLACE \\
+November 2012 \\
+International game creation contest (1300 registrants, 200 competitors). \\
+Conception, design and implementation of a web unity game. \\
+{\bf Winnings: Mac Mini (worth \$700)}
+
+NASA TOURNAMENT LAB - USPTO ALGORITHM CHALLENGE: 6TH PLACE \\
+March 2012 - April 2012 \\
+International TopCoder marathon challenge (150 registered, 28 competitors). \\
+Conception and implementation of a vision algorithm capable of detecting figures and their labels on a patent paper.
+
+INFOTEL MOBILE APPLICATION CONTEST: 2ND PLACE \\
+February 2011 - May 2011 \\
+National Student contest (15 competitors teams). \\
+Conception, design and implementation of a mobile application allowing the users to buy eco-responsible food. \\
+{\bf Winnings: Galaxy Tab (worth \$400)}
+
+INFOTEL WEB APPLICATION CONTEST: 1ST PLACE \\
+January 2010 - May 2010 \\
+National Student contest (15 competitors teams). \\
+Conception, design and implementation of a web application allowing to store and manage documents. I used
+the open-source software Tesseract (OCR recognition) in order to transform scanned forms (pictures) into usable data. \\ 
+{\bf Winnings: Toshiba Tecra computer (worth \$1000)}
+
+\section{MOOCs} 
  
-\section{ACTIVITIES} 
- 
-Alpha Epsilon  Pi  Fraternity,  American  Society  of  Mechanical 
-Engineers, Karate and Skydiving Clubs 
+COURSERA - UNIVERSITY OF WASHINGTON: COMPUTATIONAL NEUROSCIENCE \\
+Mai 2013 - June 2013: Statement of Accomplishment (97\%)
+
+COURSERA - UNIVERSITY OF EDINBURGH: ARTIFICIAL INTELLIGENCE PLANNING \\
+February 2013 - March 2013: Statement of Accomplishment (97.6\%, with distinction)
+
+COURSERA - STANFORD: ALGORITHM PART 1 \\
+February 2013 - March 2013: Statement of Accomplishment (97\%)
+
+COURSERA - BERKELEY: SAAS \\
+February 2012 - April 2012: Statement of Accomplishment (73\%)
+
+COURSERA - STANFORD: MACHINE LEARNING \\
+October 2011 - January 2012: Statement of Accomplishment (100\%)
  
 \section{HOBBIES} 
  
-Volleyball, weightlifting, and automotive repair 
+Bodybuilding, bicycle, travels
  
 
 \end{resume}
